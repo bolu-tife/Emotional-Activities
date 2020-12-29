@@ -2,7 +2,7 @@ import React from "react"
 import { css } from "@emotion/react"
 import {  useStaticQuery, graphql } from "gatsby"
 import MyComponent from "../darkModeToggle/mycomponent.js";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../navbar/navbar.js";
 import Footer from "../footer/footer.js";
 import SocialFollow from "../socialfollow/socialfollow.js";
 import { Helmet } from "react-helmet"

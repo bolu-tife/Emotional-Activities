@@ -23,7 +23,7 @@
 
 import React from 'react'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
-import styles from "../DarkModeToggle/mycomponent.module.css";
+import styles from "../darkModeToggle/mycomponent.module.css";
 
 class MyComponent extends React.Component {
   render() {

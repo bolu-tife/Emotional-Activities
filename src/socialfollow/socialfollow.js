@@ -14,13 +14,13 @@ export default function SocialFollow() {
   return (
     <div class="social-container">
       
-<a href="https://www.twitter.com/boluutife" className="twitter social">
+<a href="https://www.twitter.com/boluutife" className="twitter social" target="_blank" rel="noreferrer">
   <FontAwesomeIcon icon={faTwitter} size="2x" />
 </a>
-<a href="https://www.github.com/bolu-tife" className="github social">
-  <FontAwesomeIcon icon={faGithub} size="2x" />
+<a href="https://www.github.com/bolu-tife" className="github social" target="_blank" rel="noreferrer">
+<FontAwesomeIcon icon={faGithub} size="2x" />
 </a>
-<a href="https://www.linkedin.com/in/boluwatifeomosowon/" className="linkedin social">
+<a href="https://www.linkedin.com/in/boluwatifeomosowon/" className="linkedin social" target="_blank" rel="noreferrer">
   <FontAwesomeIcon icon={faLinkedin} size="2x" />
 </a>
 </div>
