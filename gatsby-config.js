@@ -31,7 +31,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
-        prefer_related_applications: true,
+        prefer_related_applications: false,
         icons: [
             {
               "src": "src/images/maskable_icon1.png", // This path is relative to the root of the site.
