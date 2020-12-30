@@ -32,6 +32,14 @@ module.exports = {
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
         icon: `src/images/icon.jpg`, // This path is relative to the root of the site.
+        icons: [
+            {
+              "src": "src/images/maskable_icon.png",
+              "sizes": "238x238",
+              "type": "image/png",
+              "purpose": "any maskable"
+            },
+          ],
       },
   	},
     `gatsby-plugin-offline`,

@@ -18,7 +18,7 @@ const Navbar = () => {
   return <ul  >
   
   
-  <li><Link className={styles.titlelink} to={`/`}><h1>{data.site.siteMetadata.title}</h1></Link></li>
+  <li className={styles.left}><Link className={styles.titlelink} to={`/`}><h1>{data.site.siteMetadata.title}</h1></Link></li>
   
   <li className={styles.right} ><Link className={styles.link} to={`/about`}>About</Link></li>
   <li className={`${styles.dropdown} ${styles.right}`}>
