@@ -10,13 +10,13 @@ import { Link} from "gatsby"
 
 
     return (
-      <div aria-label="Emotion slider"> 
+      <div aria-label="Emotion slider" role="slider"> 
  
 
-<SvgBubbleSlider icons={ICONS_TO_USE} iconSet="twemoji" primaryColor="#4fc3f7">
+<SvgBubbleSlider icons={ICONS_TO_USE} iconSet="twemoji" aria-label="Emotion slider" role="slider" primaryColor="#4fc3f7">
           {({ reaction }) =>  (
             
-            <div
+            <div 
               style={{
                 display: "flex",
                 justifyContent: "center",
