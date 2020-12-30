@@ -25,7 +25,7 @@ module.exports = {
         name: `Emotivities @bolu-tife/Emotivities`,
         short_name: `Emotivities`,
         description: `Emotional Activities, A simple list of activites to do depending on your emotions!.`,
-        start_url: `https://emotivities.netlify.app/`,
+        start_url: `/`,
         background_color: `#6b37bf`,
         theme_color: `#6b37bf`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
