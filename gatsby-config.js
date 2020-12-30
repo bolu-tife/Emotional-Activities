@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Emotivities`,
-    titleTemplate: "%s · Emotional Activites",
+    titleTemplate: "%s · Emotivities",
     description: `Emotional Activities, A simple list of activites to do depending on your emotions!.`,
     author: `bolu-tife`,
     url: "https://www.doe.com", // No trailing slash allowed!
@@ -22,7 +22,7 @@ module.exports = {
 	{
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emotional Activites @bolu-tife/Emotional-Activities`,
+        name: `Emotivities @bolu-tife/Emotivities`,
         short_name: `Emotivities`,
         description: `Emotional Activities, A simple list of activites to do depending on your emotions!.`,
         start_url: `/`,

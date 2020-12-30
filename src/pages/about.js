@@ -8,7 +8,7 @@ export default function About({ data }) {
   return (
     <Layout>
     <SEO title="About" />
-      <h3  >About {data.site.siteMetadata.title}</h3>
+      <h2  >About {data.site.siteMetadata.title}</h2>
       <p>
          Don't know what to do? We've got you covered with fun and goofy things to do relative to your emotions!
       </p>

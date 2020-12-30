@@ -10,7 +10,7 @@ export default function Faamg({ data }) {
     <Layout>
     <SEO title={post.frontmatter.title} description={post.excerpt} />
       <div>
-        <h3>{post.frontmatter.title}</h3>
+        <h2>{post.frontmatter.title}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }}  />
 
         <br />

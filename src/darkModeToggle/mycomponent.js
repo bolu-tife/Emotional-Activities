@@ -30,9 +30,10 @@ class MyComponent extends React.Component {
     return (
       <ThemeToggler>
         {({ theme, toggleTheme }) => (
-          <div className={styles.themeswitchwrapper}>
-          <label className={styles.themeswitch} >
-            <input
+          <div className={`${styles.themeswitchwrapper} ${styles.hiddenlabel}`}>
+          <label className={styles.themeswitch}  aria-label="light or dark theme toggle" title="light or dark theme toggle">
+            Light / Dark Mood<input 
+            title="light or dark theme toggle"
               type="checkbox"
               onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
               checked={theme === 'dark'}
