@@ -15,7 +15,7 @@ const Navbar = () => {
       }
     `
   )
-  return <ul  >
+  return <ul  className={styles.sidenav}>
   
   
   <li className={styles.left}><Link className={styles.titlelink} to={`/`}><h1>{data.site.siteMetadata.title}</h1></Link></li>

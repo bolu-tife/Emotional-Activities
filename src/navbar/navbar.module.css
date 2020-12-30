@@ -1,11 +1,8 @@
 
 
+
 ul li.right {float: right;}
 
-@media screen and (max-width: 600px) {
-  ul li.right, 
-  ul li {float: none;}
-}
 
 .linkbutton {
   background-color: transparent;
@@ -84,3 +81,5 @@ li.dropdown {
 
 .dropdown:hover .dropdowncontent {
   display: block;}
+
+

@@ -10,7 +10,7 @@ import { Link} from "gatsby"
 
 
     return (
-      <div> 
+      <div aria-label="Emotion slider"> 
  
 
 <SvgBubbleSlider icons={ICONS_TO_USE} iconSet="twemoji" primaryColor="#4fc3f7">

@@ -13,7 +13,7 @@ Q - What's brown and sticky?
 A - A stick.
 
 1. Paint or draw anything that comes to mind.
-2. Scream to a pillow  or in the open.
+2. Scream into a pillow  or in the open.
 3. Write your feelings out!
 4. Join a yoga class
 5. Cut or Dye your hair

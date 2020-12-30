@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -15,12 +15,7 @@ export default function Faamg({ data }) {
 
         <br />
         
-      <Link 
-          to={`/`}>
-          <button className="whitebutton" aria-label="Return to Home Page">
-            Go back
-          </button>
-      </Link>
+      
       </div>
       
     </Layout>
