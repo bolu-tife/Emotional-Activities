@@ -34,7 +34,8 @@
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-theme-kirkham": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-wordpress-2016": "^0.16.19",
+    "use-sound": "^2.0.1"
   },
   "devDependencies": {
     "@testing-library/cypress": "^7.0.3",

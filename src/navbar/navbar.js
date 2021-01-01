@@ -15,6 +15,8 @@ const Navbar = () => {
       }
     `
   )
+   
+  }
   return <ul  className={styles.sidenav}>
   
   
@@ -28,8 +30,8 @@ const Navbar = () => {
  <button  aria-haspopup="true" className={`${styles.linkbutton} ${styles.dropbtn}`}  >Emotions</button>
     <div aria-hidden="true" aria-label="Emotions submenu" className={styles.dropdowncontent}>
       <Link to={`/cool/`} role="cool"><span role="img" aria-label="cool">&#128526;</span></Link>
-      <Link to={`/happy/`}><span role="img" aria-label="happy">&#128514;</span></Link>
-      <Link to={`/smile/`}><span role="img" aria-label="smile">&#128512;</span></Link>
+      <Link  to={`/happy/`}><span role="img" aria-label="happy">&#128514;</span></Link>
+      <Link  to={`/smile/`}><span role="img" aria-label="smile">&#128512;</span></Link>
       <Link to={`/neutral/`}><span role="img" aria-label="neutral">&#128528;</span></Link>
       <Link to={`/sad/`}><span role="img" aria-label="sad">&#128532;</span></Link>
       <Link to={`/angry/`}><span role="img" aria-label="angry">&#128544;</span></Link>
@@ -42,4 +44,5 @@ const Navbar = () => {
 </ul>;
 };
 export default Navbar;
+
 

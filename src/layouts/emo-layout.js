@@ -26,7 +26,7 @@ import { Link} from "gatsby"
             >
               <Link 
               to={`/` + reaction}>
-              <button className="whitebutton" aria-label=" button">
+              <button className="btn whitebutton " aria-label=" button">
                 {reaction ? reaction : "?"}
               </button>
               </Link>
