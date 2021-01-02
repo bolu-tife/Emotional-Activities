@@ -16,7 +16,7 @@ const Navbar = () => {
     `
   )
    
-  }
+  
   return <ul  className={styles.sidenav}>
   
   

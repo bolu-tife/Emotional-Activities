@@ -84,8 +84,8 @@ padding: 12px 25px;
 
 .whitebutton {
 
-  background-color: white;
-  box-shadow: 3px 5px 5px #888888;
+  background-color: white;/*
+  box-shadow: 3px 5px 5px #888888;*/
   border-radius: 2px;
   transition: all 1s ease;
   transform: scale(1);
