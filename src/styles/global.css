@@ -89,6 +89,7 @@ padding: 12px 25px;
   border-radius: 2px;
   transition: all 1s ease;
   transform: scale(1);
+  color: black
 }
 
 .whitebutton:hover {

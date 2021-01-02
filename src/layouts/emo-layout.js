@@ -4,7 +4,7 @@
 import { Link} from "gatsby"
   import { SvgBubbleSlider } from 'react-svg-bubble-slider'
 
-  const ICONS_TO_USE = ["angry", "sad", "neutral", "smile", "happy", "cool"]
+  const ICONS_TO_USE = ["angry", "sad", "sleepy", "neutral", "happy", "cool"]
 
   const EmoLayout = () => {
 
